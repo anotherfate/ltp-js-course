@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Second JavaScript</title>
+	<style type="text/css">
+		#touchTarget {
+			background-color: #990000;
+			color: white;
+			width: 200px;
+			height: 200px;
+			padding: 10px;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<h1>The quick brown fox jumped over the lazy dogs</h1>
+
+	<!-- Don't do this. This is old school and not recommended. Inline is a BAD place to put javaScript -->
+
+	<botton onclick="alert('Thanks for clicking');">Click Me</botton>
+
+	<!-- Second way: Naked Script tags -->
+
+	<script>
+	window.onload = function()
+		{
+		document.getElementById('myButton').addEventListener('click', respond);
+		}
+
+		function respond(e)
+		{
+			alert('Thanks for clicking!');
+		}
+
+	</script>
+<br />
+<br />
+	<button id="myButton">Version 2</button>
+
+	<!-- Third way, make a new file 
+			Example:
+			<script src="where.js"></script>
+
+
+	-->
+
+
+
+
+
+
+
+</body>
+</html>
