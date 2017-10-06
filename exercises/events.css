@@ -1,0 +1,19 @@
+#target
+{
+	width: 400px;
+	height: 400px;
+	background-color: #990000;
+}
+
+#targetA, #targetB {
+	width: 200px;
+	height: 200px;
+}
+
+#targetA {
+	background-color: yellow;
+}
+
+#targetB {
+	background-color: green;
+}

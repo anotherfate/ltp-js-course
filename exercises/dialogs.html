@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dialogs</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			document.getElementById('myBtn').addEventListener('click', alertUser);
+
+			var ready = confirm("Are You Ready?");
+
+			if(ready){
+
+			} else {
+				alert("Too Bad.");
+			};
+		}
+
+		function alertUser(e){
+			alert("Button Pressed")
+
+
+		}
+
+	</script>
+
+</head>
+<body>
+	<button id="myBtn">Press Me</button>
+</body>
+</html>
