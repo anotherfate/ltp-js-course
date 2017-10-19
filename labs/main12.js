@@ -1,4 +1,3 @@
-
 	function purpleWords() 
 		{
 			var boldWords = document.getElementsByTagName('strong');
@@ -15,10 +14,3 @@
 				boldWords[i].style.color = 'black';
 			}
 		}
-
-
-
-
-
-
-
